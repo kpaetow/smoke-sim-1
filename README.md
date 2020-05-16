@@ -16,7 +16,7 @@ There are several advantages to this implementation, as it:
 Disadvantages of this implementation:
 + It is a native Windows desktop application which can't be run in a browser
 + It targets Direct2D which sacrifices portability to other platforms
-+ It's a very basic fluid simulation, constrained to 2 variables (smoke density and velocity)
++ It's a very basic fluid simulation, constrained to 2 variables
 + It's limited to 2D
 + Uses a fixed simulation grid size that can't be changed interactively to simplify implementation
 + The application is single-threaded (which requires processing both the application's Windows message loop as well as iterating the simulation in the same thread)
